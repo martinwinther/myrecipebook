@@ -1,0 +1,29 @@
+.login-card {
+    display: flex;
+    border: 4px rgb(186, 226, 233) solid;
+    border-radius: 10px;
+    padding: 20px;
+    justify-content: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.splash-img {
+    width: 45%;
+    border: 2px solid black;
+}
+
+.login-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-right {
+    margin: 20px;
+    border: 1px rgb(121, 223, 223) dotted;
+    padding: 20px;
+    width: 45%;
+
+}
