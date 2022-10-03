@@ -1,15 +1,19 @@
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: 'Poppins', sans-serif;
+    color: #010c26;
+    margin: 0;
 }
 
 .login-card {
     display: flex;
-    border: 4px rgb(186, 226, 233) solid;
-    border-radius: 10px;
+    border: 0px #f6bd60 solid;
+    height: 900px;
     padding: 20px;
     justify-content: center;
-    width: 70%;
+    align-items: center;
     margin: 0 auto;
+    background-image: url("bg.jpg");
+    background-size: cover;
 
 }
 
@@ -27,17 +31,30 @@ body {
     align-items: center;
 }
 
-.login-right {
-    margin: 20px;
-    border: 1px rgb(121, 223, 223) dotted;
+.login-left {
+    margin: 20px;     
+    width: 500px;
+    height: 45%;
+    background-image: url("https://i.giphy.com/media/L1ge3nIyrXt6/giphy.webp");
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     
-    width: 45%;
-    height: 80%;
 
+}
+
+.login-right {
+    margin: 20px;    
+    width: 500px;
+    height: 45%;
+    background: #f7ede2EE;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 h1 {
     text-align: center;
+    font-weight: bold;
 }
 
 
@@ -45,10 +62,12 @@ input {
     margin: 10px;
     padding: 10px;
     width: 70% ;
-    height: 50px;
+    height: 40px;
     border-radius: 5px;
-    border: 2px solid blue;
-    background-color: azure;
+    border: 1px solid #f6bd60;
+    background-color: #f6dcd3;
+    font-family: inherit;
+    font-weight: bold;
 }
 
 button {
@@ -57,7 +76,13 @@ button {
     width: 70%;
     height: 50px;
     border-radius: 5px;
-    border: 2px solid blue;
-    background-color: darkcyan;
+    border: 1px solid #84a59d;
+    background-color: #84a59d;
+    font-family: inherit;
+    font-weight: bold;
 
+}
+
+#terms {
+    text-align: center;
 }
