@@ -14,15 +14,13 @@ body {
     margin: 0 auto;
     background-image: url("bg.jpg");
     background-size: cover;
-
 }
 
 .splash-img {
     width: 45%;
     object-fit: cover;
     border: 2px solid black;
-    margin: 20px;
-    
+    margin: 20px;    
 }
 
 .login-input {
@@ -39,8 +37,6 @@ body {
     background-size: cover;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-    
-
 }
 
 .login-right {
@@ -80,7 +76,6 @@ button {
     background-color: #84a59d;
     font-family: inherit;
     font-weight: bold;
-
 }
 
 #terms {
