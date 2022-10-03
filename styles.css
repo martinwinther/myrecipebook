@@ -1,8 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     color: #010c26;
-    margin: 0;
-}
+    margin: 0;}
 
 .login-card {
     display: flex;
@@ -30,22 +29,26 @@ body {
 }
 
 .login-left {
-    margin: 20px;     
-    width: 500px;
-    height: 45%;
-    background-image: url("https://i.giphy.com/media/L1ge3nIyrXt6/giphy.webp");
+    margin: 80px;     
+    width: 400px;
+    height: 350px;    background-image: url("https://i.giphy.com/media/L1ge3nIyrXt6/giphy.webp");
     background-size: cover;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 .login-right {
-    margin: 20px;    
-    width: 500px;
-    height: 45%;
+    margin: 80px;    
+    width: 400px;
+    height: 350px;
     background: #f7ede2EE;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+   
 }
 
 h1 {
@@ -57,7 +60,7 @@ h1 {
 input {
     margin: 10px;
     padding: 10px;
-    width: 70% ;
+    width: 80% ;
     height: 40px;
     border-radius: 5px;
     border: 1px solid #f6bd60;
