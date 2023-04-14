@@ -15,16 +15,33 @@
         <!-- <img class="splash-img" src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="Delicious asian inspired food">
         -->
         <div class="login-left"></div>
-        <div class="login-right">
-     
-            <div class="login-input">           
-                <input type="text" placeholder="Username" id="username" required >
-                <input type="password" id="password" placeholder="Password" required>
-                <button>Log In</button>   
-                <button>Signup</button>   
+        <div class="login-right">           
+            <div class="login-input">  
+                <form class="login-form" id="login-form">
+
+                    <input 
+                    type="email"
+                    name="email" 
+                    placeholder="Email"
+                    aria-label="Email address"
+                    id="email" 
+                    required >
+
+                    <input 
+                    type="password" 
+                    name="password"
+                    id="password" 
+                    placeholder="Password"
+                    aria-label="Your password" 
+                    required>
+
+                    <button type="submit" class="login-btn" id="login-btn">Log In</button>
+                    <button type="submit" class="signup-btn" id="signup-btn">Signup</button>
+                </form>                                
             </div>
         </div>
     </div>      
     <h3 id="terms">Terms and conditions apply</h3> 
+<script src="index.js" />
 </body>
 </html>
