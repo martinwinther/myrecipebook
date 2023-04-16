@@ -6,3 +6,71 @@ body {
     margin: 0; 
 }
 
+/* Navbar */
+
+nav {
+    background-color: #faf8f8;
+    overflow: hidden;
+}
+
+/* Style the navbar list */
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+/* Style the list items */
+
+.logo {
+    background-color: #faf8f8;
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    display: block;
+    text-shadow: 1px 0px;
+}
+
+.navbar li {
+    float: left;
+}
+
+/* Style the links */
+.navbar li a {
+    display: block;
+    color: rgb(3, 3, 3);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+.navbar li a:hover {
+    background-color: #c7c5c5;
+}
+
+/* Style the magnifying glass icon */
+.fa-solid.fa-magnifying-glass:before {
+    content: "\f002";
+}
+
+/* Style the user icon */
+.fa-regular.fa-user:before {
+    content: "\f007";
+}
+
+/* Style the list icon */
+.fa-solid.fa-list:before {
+    content: "\f03a";
+}
+
+/* Style the bars icon */
+.fa-solid.fa-bars:before {
+    content: "\f0c9";
+}
+
+/* Float the bars icon to the right */
+.navbar-right {
+    float: right;
+}
